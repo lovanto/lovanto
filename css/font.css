@@ -1,26 +1,26 @@
 @font-face {
     font-family: "LatoBlack";
-    src: url(../font/Lato-Black.ttf);
+    src: url(../fonts/Lato-Black.ttf);
 }
 
 @font-face {
     font-family: "LatoBold";
-    src: url(../font/Lato-Bold.ttf);
+    src: url(../fonts/Lato-Bold.ttf);
 }
 
 @font-face {
     font-family: "LatoRegular";
-    src: url(../font/Lato-Regular.ttf);
+    src: url(../fonts/Lato-Regular.ttf);
 }
 
 @font-face {
     font-family: "LatoLight";
-    src: url(../font/Lato-Light.ttf);
+    src: url(../fonts/Lato-Light.ttf);
 }
 
 @font-face {
     font-family: "LatoThin";
-    src: url(../font/Lato-Thin.ttf);
+    src: url(../fonts/Lato-Thin.ttf);
 }
 
 .lato-black {
