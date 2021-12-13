@@ -2,6 +2,10 @@ body {
     font-family: "LatoRegular";
 }
 
+#header2 {
+    display: none;
+}
+
 a {
     color: #282D36;
     text-decoration: none;
