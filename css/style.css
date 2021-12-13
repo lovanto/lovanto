@@ -7,6 +7,64 @@ a {
     text-decoration: none;
 }
 
+.button {
+    position: relative;
+    padding: 10px;
+}
+
+a.button.box:before,
+a.button.box:after {
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    transition: all 0.3s ease;
+}
+
+a.button.box:before {
+    top: -2.5%;
+    left: -1%;
+    border-top: 2px solid #282D36;
+    border-left: 2px solid #282D36;
+}
+
+a.button.box:after {
+    bottom: -2.5%;
+    right: -1%;
+    border-bottom: 2px solid #282D36;
+    border-right: 2px solid #282D36;
+}
+
+a.button.box:hover:before,
+a.button.box:hover:after {
+    width: 100%;
+    height: 100%;
+    transition: all 0.3s ease;
+}
+
+a.button.underscore {
+    padding: 0px;
+    padding-bottom: 10px;
+}
+
+a.button.underscore:after {
+    content: '';
+    width: 100%;
+    height: 120%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    border-bottom: 2px solid #282D36;
+    opacity: 0;
+    transition: all .2s ease;
+}
+
+a.button.underscore:hover:after {
+    opacity: 1;
+    height: 100%;
+    transition: all 0.3s ease;
+}
+
 .img-profil {
     background-image: url('../images/profile.jpg');
     background-repeat: no-repeat;
@@ -18,7 +76,17 @@ a {
 .line-vertical {
     margin-left: 1.2vw;
     border-right: 3px solid #8D9CBA;
-    height: 22vh;
+    height: 24vh;
+}
+
+.menu-parent {
+    background-color: white;
+    padding: 1rem 0;
+    transition: transform .3s;
+}
+
+.menu-parent:hover {
+    transform: scale(1.3);
 }
 
 
