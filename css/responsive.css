@@ -1,0 +1,17 @@
+@media screen and (max-width: 1400px) {
+    /* RANDOM */
+    .container {
+        margin-top: 0rem !important;
+    }
+    .line-vertical {
+        margin-left: 1vw !important;
+        height: 18vh !important;
+    }
+    /* TEXT ADJUST */
+    .header {
+        font-size: 30px !important;
+    }
+    .description {
+        font-size: 20px !important;
+    }
+}
