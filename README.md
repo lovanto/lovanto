@@ -1,7 +1,5 @@
 <h1 align="left">Hi there 👋 </h1>
 
-## 🚀 About Me
-
 <p align="left">I'm Lovanto, a Software Engineer Enthusiast based in Indonesia. I'm currently working as a Backend Developer building scalable and user-friendly generation AI applications and some other projects. </p>
 
 ## 📊 GitHub Stats
